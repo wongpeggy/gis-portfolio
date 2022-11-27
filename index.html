@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Author: Peggy Wong -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peggy Wong | GIS Portfolio</title>
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="any">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xxl navbar-dark fixed-top px-3 px-sm-5 py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <b>Peggy Wong | GIS Portfolio</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dark-blue-navbar" aria-controls="dark-blue-navbar" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dark-blue-navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- Cartography -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="cartography.html" data-bs-toggle="dropdown" aria-expanded="false">Cartography</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="cartography.html#city-of-markham-population-density-2016-census">City of Markham - Population Density, 2016 Census</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#city-of-markham-canadas-most-diverse-community-1-25000">City of Markham - Canada's Most Diverse Community 1:25,000</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#city-of-markham-canadas-most-diverse-community-1-100000">City of Markham - Canada's Most Diverse Community 1:100,000</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#social-grade-in-greater-london">Social Grade in Greater London</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Spatial Analysis -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="spatial-analysis.html" data-bs-toggle="dropdown" aria-expanded="false">Spatial Analysis</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#wolf-corridor-in-yellowstone-national-park">Wolf Corridor in Yellowstone National Park</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#earthquake-risk-assessment-of-yokohama-japan">Earthquake Risk Assessment of Yokohama, Japan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro">Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#ski-resort-site-suitability-analysis">Ski Resort Site Suitability Analysis</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Remote Sensing -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="remote-sensing.html" data-bs-toggle="dropdown" aria-expanded="false">Remote Sensing</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="remote-sensing.html#mount-fuji-japan">Mount Fuji, Japan</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Web GIS -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="web-gis.html" data-bs-toggle="dropdown" aria-expanded="false">Web GIS</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="web-gis.html#lion-rock-trail-map">Lion Rock Trail Map</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="web-gis.html#bc-wildfire-dashboard">BC Wildfire Dashboard</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Programming -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="programming.html#development-activity-tracker-city-of-toronto">Development Activity Tracker - City of Toronto</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#gis-portfolio">GIS Portfolio</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Collaborative Project -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://flemingflamingos.github.io/development-activity-tracker/index.html" data-bs-toggle="dropdown" aria-expanded="false">Collaborative Project</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://flemingflamingos.github.io/development-activity-tracker/index.html" target="_blank">Development Activity Tracker - City of Toronto</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Cover -->
+    <div class="cover px-3 py-5">
+      <div class="text-center px-3 py-5">
+        <img class="profile-picture" src="img/peggy.jpg" alt="peggy">
+        <p class="title">Peggy Wong</p>
+        <p class="subtitle">Geographic Information Systems (GIS) Analyst</p>
+      </div>
+    </div>
+    <!-- Main -->
+    <main>
+      <div class="container py-5">
+        <!-- About Me -->
+        <section>
+          <h1>About Me</h1>
+          <p>I completed my Bachelor of Arts with Distinction in Psychology at University of Alberta in 2018. My first job as an insurance agent at Allstate has strengthened my communication and interpersonal skills with my colleagues and clients. After enjoying considerable success in the insurance industry, I became interested in GIS after taking an introductory course on Coursera in my spare time. As a GIS student at Fleming College, I have developed comprehensive knowledge in database development, workflow automation, and spatial analysis techniques. At the end of the program, I collaborated with two other students to develop a series of web maps and web applications for the City of Toronto to track all the active and inactive development activities in the city, which has allowed me to gain real world experience to leverage my practical skills and work ethic.</p>
+        </section>
+        <!-- GIS Projects -->
+        <section>
+          <h1>GIS Projects</h1>
+          <div class="gallery">
+            <div class="column">
+              <!-- City of Markham - Population Density, 2016 Census -->
+              <div class="thumbnail" onclick="window.open('cartography.html#city-of-markham-population-density-2016-census');" style="cursor:pointer;">
+                <img src="thumbnail/city-of-markham-population-density-2016-census.jpg" alt="city-of-markham-population-density-2016-census">
+                <div class="overlay">
+                  <p>City of Markham - Population Density, 2016 Census</p>
+                </div>
+              </div>
+              <!-- Social Grade in Greater London -->
+              <div class="thumbnail" onclick="window.open('cartography.html#social-grade-in-greater-london');" style="cursor:pointer;">
+                <img src="thumbnail/social-grade-in-greater-london.jpg" alt="social-grade-in-greater-london">
+                <div class="overlay">
+                  <p>Social Grade in Greater London</p>
+                </div>
+              </div>
+              <!-- Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro -->
+              <div class="thumbnail" onclick="window.open('spatial-analysis.html#exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro');" style="cursor:pointer;">
+                <img src="thumbnail/exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro.jpg" alt="exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro">
+                <div class="overlay">
+                  <p>Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro</p>
+                </div>
+              </div>
+              <!-- Lion Rock Trail Map -->
+              <div class="thumbnail" onclick="window.open('web-gis.html#lion-rock-trail-map');" style="cursor:pointer;">
+                <img src="thumbnail/lion-rock-trail-map.jpg" alt="lion-rock-trail-map">
+                <div class="overlay">
+                  <p>Lion Rock Trail Map</p>
+                </div>
+              </div>
+              <!-- GIS Portfolio -->
+              <div class="thumbnail" onclick="window.open('programming.html#gis-portfolio');" style="cursor:pointer;">
+                <img src="thumbnail/gis-portfolio.jpg" alt="gis-portfolio">
+                <div class="overlay">
+                  <p>GIS Portfolio</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <!-- City of Markham - Canada's Most Diverse Community 1:25,000 -->
+              <div class="thumbnail" onclick="window.open('cartography.html#city-of-markham-canadas-most-diverse-community-1-25000');" style="cursor:pointer;">
+                <img src="thumbnail/city-of-markham-canadas-most-diverse-community-1-25000.jpg" alt="city-of-markham-canadas-most-diverse-community-1-25000">
+                <div class="overlay">
+                  <p>City of Markham - Canada's Most Diverse Community 1:25,000</p>
+                </div>
+              </div>
+              <!-- Wolf Corridor in Yellowstone National Park -->
+              <div class="thumbnail" onclick="window.open('spatial-analysis.html#wolf-corridor-in-yellowstone-national-park');" style="cursor:pointer;">
+                <img src="thumbnail/wolf-corridor-in-yellowstone-national-park.jpg" alt="wolf-corridor-in-yellowstone-national-park">
+                <div class="overlay">
+                  <p>Wolf Corridor in Yellowstone National Park</p>
+                </div>
+              </div>
+              <!-- Ski Resort Site Suitability Analysis -->
+              <div class="thumbnail" onclick="window.open('spatial-analysis.html#ski-resort-site-suitability-analysis');" style="cursor:pointer;">
+                <img src="thumbnail/ski-resort-site-suitability-analysis.jpg" alt="ski-resort-site-suitability-analysis">
+                <div class="overlay">
+                  <p>Ski Resort Site Suitability Analysis</p>
+                </div>
+              </div>
+              <!-- BC Wildfire Dashboard -->
+              <div class="thumbnail" onclick="window.open('web-gis.html#bc-wildfire-dashboard');" style="cursor:pointer;">
+                <img src="thumbnail/bc-wildfire-dashboard.jpg" alt="bc-wildfire-dashboard">
+                <div class="overlay">
+                  <p>BC Wildfire Dashboard</p>
+                </div>
+              </div>
+              <!-- Development Activity Tracker - City of Toronto -->
+              <div class="thumbnail" onclick="window.open('https://flemingflamingos.github.io/development-activity-tracker/index.html');" style="cursor:pointer;">
+                <img src="thumbnail/development-activity-tracker-city-of-toronto.jpg" alt="development-activity-tracker-city-of-toronto">
+                <div class="overlay">
+                  <p>Development Activity Tracker - City of Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <!-- City of Markham - Canada's Most Diverse Community 1:100,000 -->
+              <div class="thumbnail" onclick="window.open('cartography.html#city-of-markham-canadas-most-diverse-community-1-100000');" style="cursor:pointer;">
+                <img src="thumbnail/city-of-markham-canadas-most-diverse-community-1-100000.jpg" alt="city-of-markham-canadas-most-diverse-community-1-100000">
+                <div class="overlay">
+                  <p>City of Markham - Canada's Most Diverse Community 1:100,000</p>
+                </div>
+              </div>
+              <!-- Earthquake Risk Assessment of Yokohama, Japan -->
+              <div class="thumbnail" onclick="window.open('spatial-analysis.html#earthquake-risk-assessment-of-yokohama-japan');" style="cursor:pointer;">
+                <img src="thumbnail/earthquake-risk-assessment-of-yokohama-japan.jpg" alt="earthquake-risk-assessment-of-yokohama-japan">
+                <div class="overlay">
+                  <p>Earthquake Risk Assessment of Yokohama, Japan</p>
+                </div>
+              </div>
+              <!-- Mount Fuji, Japan -->
+              <div class="thumbnail" onclick="window.open('remote-sensing.html#mount-fuji-japan');" style="cursor:pointer;">
+                <img src="thumbnail/mount-fuji-japan.jpg" alt="mount-fuji-japan">
+                <div class="overlay">
+                  <p>Mount Fuji, Japan</p>
+                </div>
+              </div>
+              <!-- Development Activity Tracker - City of Toronto -->
+              <div class="thumbnail" onclick="window.open('programming.html#development-activity-tracker-city-of-toronto');" style="cursor:pointer;">
+                <img src="thumbnail/development-activity-tracker-city-of-toronto-programming.jpg" alt="development-activity-tracker-city-of-toronto">
+                <div class="overlay">
+                  <p>Development Activity Tracker - City of Toronto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-light">Copyright © 2022 Peggy Wong. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>$('.dropdown-item').on('click', function(){$('.navbar-collapse').collapse('hide');});</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

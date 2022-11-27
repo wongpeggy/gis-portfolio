@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Author: Peggy Wong -->
+<!-- Date Created: Feb 01, 2022 -->
+<!-- Date Modified: Feb 02, 2022 -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion Rock Trail Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="map.js"></script>
+    <style>
+      html, body {
+        background-color: #002544;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #banner {
+        width: 100%;
+      }
+      #bannertext {
+        color: #002544;
+        font-family: Helvetica, sans-serif;
+        left: 5vw;
+        position: absolute;
+        top: 0.25vw;
+      }
+      #title {
+        font-size: 3vw;
+        margin-bottom: 0.5vw;
+      }
+      #subtitle {
+        font-size: 1.75vw;
+        margin-top: 0;
+      }
+      main {
+        display: flex;
+      }
+      #article {
+        color: white;
+        float: left;
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        padding: 16px;
+        width: 20%;
+      }
+      #lionrock {
+        width: 100%;
+      }
+      #caption {
+        font-size: 8px;
+        margin-bottom: 8px;
+      }
+      #map {
+        flex: auto;
+      }
+      footer {
+        background-color: black;
+        bottom: 0;
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        text-align: center;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Banner -->
+    <!-- Image Source: https://unsplash.com/photos/iglsC6XUpuE Free to use under the Unsplash License -->
+    <header>
+      <img id="banner" src="img/banner.jpg" alt="Banner">
+      <div id="bannertext">
+        <h1 id="title">Lion Rock Trail Map</h1>
+        <h2 id="subtitle">The Most Iconic Mountain in Hong Kong</h2>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <!-- Image Source: https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_cou/cou_vis_cou_lr/cou_vis_cou_lr.html -->
+    <main>
+      <div id="article">
+        <img id="lionrock" src="img/lion-rock.jpg" alt="Lion Rock">
+        <p id="caption">Source: Agriculture, Fisheries and Conservation Department</p>
+        <p>Lion Rock is a mountain in Hong Kong which is well known for its resemblance to a crouching lion and its breathtaking panorama view of the city. According to folklore, the God sent a lion to suppress the nine dragons infested in Kowloon, Hong Kong, and the lion turned into Lion Rock. It is worth mentioning that "Lion Rock Spirit" refers to the core values, including solidarity and perseverance, that are inherited by Hong Kong people from generation to generation.</p>
+        <p>The total duration of the 4.7km hiking route is around 2 to 3 hours. The hikers can access the trail by public transportation easily. Although Lion Rock is one of the most popular trails in Hong Kong, it is listed as high risk location by the government due to its level of difficulty, with records of serious and fatal accidents. The trail can be rocky and steep with no fences as the hikers approach to the peak. The hikers should be properly prepared and be cautious of the steep cliffs.</p>
+      </div>
+      <div id="map"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOKMjfoGH9L6JKnnkzgKFJIuo2YVpKFVo&callback=initMap&v=weekly" async></script>
+    </main>
+    <!-- Footer -->
+    <footer>Peggy Wong | Fleming GIS 2022 | All Rights Reserved</footer>
+  </body>
+</html>

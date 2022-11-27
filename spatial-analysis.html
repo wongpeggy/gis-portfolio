@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- spatial-analysis.html -->
+<!-- Author: Peggy Wong -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peggy Wong | GIS Portfolio | Spatial Analysis</title>
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="any">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xxl navbar-dark fixed-top px-3 px-sm-5 py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <b>Peggy Wong | GIS Portfolio</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dark-blue-navbar" aria-controls="dark-blue-navbar" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dark-blue-navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- Cartography -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="cartography.html" data-bs-toggle="dropdown" aria-expanded="false">Cartography</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="cartography.html#city-of-markham-population-density-2016-census">City of Markham - Population Density, 2016 Census</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#city-of-markham-canadas-most-diverse-community-1-25000">City of Markham - Canada's Most Diverse Community 1:25,000</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#city-of-markham-canadas-most-diverse-community-1-100000">City of Markham - Canada's Most Diverse Community 1:100,000</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cartography.html#social-grade-in-greater-london">Social Grade in Greater London</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Spatial Analysis -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="spatial-analysis.html" data-bs-toggle="dropdown" aria-expanded="false">Spatial Analysis</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#wolf-corridor-in-yellowstone-national-park">Wolf Corridor in Yellowstone National Park</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#earthquake-risk-assessment-of-yokohama-japan">Earthquake Risk Assessment of Yokohama, Japan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro">Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spatial-analysis.html#ski-resort-site-suitability-analysis">Ski Resort Site Suitability Analysis</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Remote Sensing -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="remote-sensing.html" data-bs-toggle="dropdown" aria-expanded="false">Remote Sensing</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="remote-sensing.html#mount-fuji-japan">Mount Fuji, Japan</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Web GIS -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="web-gis.html" data-bs-toggle="dropdown" aria-expanded="false">Web GIS</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="web-gis.html#lion-rock-trail-map">Lion Rock Trail Map</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="web-gis.html#bc-wildfire-dashboard">BC Wildfire Dashboard</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Programming -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="programming.html" data-bs-toggle="dropdown" aria-expanded="false">Programming</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="programming.html#development-activity-tracker-city-of-toronto">Development Activity Tracker - City of Toronto</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="programming.html#gis-portfolio">GIS Portfolio</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Collaborative Project -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://flemingflamingos.github.io/development-activity-tracker/index.html" data-bs-toggle="dropdown" aria-expanded="false">Collaborative Project</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://flemingflamingos.github.io/development-activity-tracker/index.html" target="_blank">Development Activity Tracker - City of Toronto</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Cover -->
+    <div class="cover px-3 py-5">
+      <div class="text-center px-3 py-5">
+        <img class="profile-picture" src="img/peggy.jpg" alt="peggy">
+        <p class="title">Peggy Wong</p>
+        <p class="subtitle">Geographic Information Systems (GIS) Analyst</p>
+      </div>
+    </div>
+    <!-- Main -->
+    <main>
+      <div class="container py-5">
+        <!-- Wolf Corridor in Yellowstone National Park -->
+        <section class="work" id="wolf-corridor-in-yellowstone-national-park">
+          <h1>Wolf Corridor in Yellowstone National Park</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="file/wolf-corridor-in-yellowstone-national-park.pdf" target="_blank" role="button">View Map</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span></div>
+          <p>The map displays the optimal route for gray wolves in Yellowstone National Park, United States, which was generated by Least Cost Path Analysis. The cost surfaces, which were generated based on the pre-defined weighted criteria (land cover, slope, distance to human, distance to water, road and trail density), were combined into an accumulated cost surface. The cost distance and the cost direction were then generated to identify the least cost path based on the pre-defined origin and destination. Based on the results, the accumulated cost surface indicates that the majority of Yellowstone National Park is suitable for gray wolves habitat (79%), while 12% of the area is constrained, 3% of the area is highly constrained, and 6% of the area is unsuitable. The optimal wolf corridor is 162.21km long, running from Mammoth, Wyoming in the north, to Badger Creek, Wyoming, in the south.</p>
+          <a class="preview"><img src="preview/wolf-corridor-in-yellowstone-national-park.jpg" alt="wolf-corridor-in-yellowstone-national-park"></a>
+        </section>
+        <!-- Earthquake Risk Assessment of Yokohama, Japan -->
+        <section class="work" id="earthquake-risk-assessment-of-yokohama-japan">
+          <h1>Earthquake Risk Assessment of Yokohama, Japan</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="file/earthquake-risk-assessment-of-yokohama-japan.pdf" target="_blank" role="button">View Map</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span></div>
+          <p>The map displays the low risk and high risk areas in Yokohama, Japan, in the event of a catastrophic earthquake. MCDA (Multi-Criteria Decision Analysis) was conducted based on the pre-defined criteria (population density, soil type, distance to disaster base hospital, distance to fire station, distance to evacuation shelter, maximum tsunami inundation depth based on the government's prediction). The risk surfaces for each criterion were generated, and the weightings for each criterion were determined using AHP (Analytical Hierarchy Process). The final risk surface was then generated using the Weighted Overlay tool in ArcGIS Pro. Based on the results, Yokohama is generally safe in the event of an earthquake. 92% of the area (401.55km2) is classified as low risk or moderate risk, and only 8% of the area (34.71 km2) is classified as high risk. These relatively high risk areas are concentrated in the eastern area of Yokohama.</p>
+          <a class="preview"><img src="preview/earthquake-risk-assessment-of-yokohama-japan.jpg" alt="earthquake-risk-assessment-of-yokohama-japan"></a>
+        </section>
+        <!-- Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro -->
+        <section class="work" id="exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro">
+          <h1>Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="file/exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro.pdf" target="_blank" role="button">View Report</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span> <span class="badge text-bg-primary">Microsoft Word</span></div>
+          <p>The report compares different spatial interpolation methods that are available in ArcGIS Pro. DEMs (digital elevation models) were generated for each spatial interpolation method (Inverse Distance Weighting, Spline, Topo to Raster, Natural Neighbor). Based on the results, all spatial interpolation methods estimate the unknown values fairly accurately. The Topo to Raster interpolation had the best performance in estimating unknown values based on collected sample data. However, the Natural Neighbor interpolation was the most efficient method for users who do not have much knowledge about interpolation and want to generate interpolated surfaces quickly. Each interpolation method has their own advantages and disadvantages, and users should choose an interpolation method based on their research purposes and context.</p>
+          <a class="preview"><img src="preview/exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro.jpg" alt="exploring-interpolation-with-the-spatial-analyst-extension-in-arcgis-pro"></a>
+        </section>
+        <!-- Ski Resort Site Suitability Analysis -->
+        <section class="work" id="ski-resort-site-suitability-analysis">
+          <h1>Ski Resort Site Suitability Analysis</h1>
+          <div class="tag"><a class="btn btn-outline-dark btn-sm" href="file/ski-resort-site-suitability-analysis.pdf" target="_blank" role="button">View Map</a></div>
+          <div class="tag"><span class="badge text-bg-info">ArcGIS Pro</span></div>
+          <p>The map displays the optimal ski resort locations in Peterborough, Ontario. Since the Topo to Raster interpolation had the best performance in estimating unknown values in the Peterborough area (see Exploring Interpolation with the Spatial Analyst Extension in ArcGIS Pro), it was used to generate a 20m DEM. The interpolated DEM was then used to derive the slope and the aspect of the study area. Based on the pre-defined criteria (slope, aspect), the study area was classified into "suitable" and "not suitable" using the Raster Calculator tool and the Reclassify tool in ArcGIS Pro. Based on the results, the area of the optimal ski resort locations for Green Circle (beginner) is 17.44 km2, whereas the area of the optimal ski resort locations for Blue Square (intermediate) is 0.02km2 only. Since the Peterborough area does not have significant mountainous terrain, people may have to look for other areas if they are interested in developing ski resorts for intermediate or advanced skiers.</p>
+          <a class="preview"><img src="preview/ski-resort-site-suitability-analysis.jpg" alt="ski-resort-site-suitability-analysis"></a>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-light">Copyright © 2022 Peggy Wong. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>$('.dropdown-item').on('click', function(){$('.navbar-collapse').collapse('hide');});</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
