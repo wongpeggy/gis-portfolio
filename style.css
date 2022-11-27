@@ -37,25 +37,25 @@ nav{
 }
 
 .profile-picture{
-  background-color: #102c3c;
-  border: 5px solid #102c3c;
+  background-color: #152238;
+  border: 5px solid #152238;
   border-radius: 50%;
   height: 125px;
   margin-bottom: 20px;
 }
 
 .title{
-  color: #23395d;
+  color: #152238;
   font-size: 2rem;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #102c3c;
+  text-shadow: 1px 1px 1px #152238;
 }
 
 .subtitle{
-  color: #23395d;
+  color: #152238;
   font-size: 1.2rem;
   font-weight: bold;
-  text-shadow: 0.4px 0.4px 0.4px #102c3c;
+  text-shadow: 0.4px 0.4px 0.4px #152238;
 }
 
 main{
